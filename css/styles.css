@@ -1,0 +1,905 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+/* home page - first section */
+.home-section1 {
+  height: 500px;
+  width: 1280px;
+  margin: 0 auto;
+  background-image: url(../images/Group\ 1.png);
+}
+
+.home-header {
+  font: Serif;
+  color: white;
+  font-size: 40px;
+  font-weight: lighter;
+  padding-top: 63.5px;
+  padding-left: 487px;
+}
+
+.home-description {
+  color: #ee4367;
+  font-size: 20px;
+  font-family: GillSans.ttc;
+  font-style: italic;
+  padding-top: 10px;
+  padding-left: 510px;
+  font-weight: lighter;
+}
+
+.home-description2 {
+  color: white;
+  font-family: GillSans.ttc;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: lighter;
+  padding-top: 50px;
+  padding-left: 432px;
+}
+
+.home-button {
+  background-color: #ee4367;
+  width: 121px;
+  height: 40px;
+  margin-top: 50px;
+  margin-left: 575px;
+}
+
+.home-read {
+  color: white;
+  font-size: 15px;
+  font-family: GillSans.ttc;
+  font-weight: lighter;
+  padding-top: 11px;
+  padding-left: 26px;
+}
+
+/* nav bar */
+.home-nav {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: white solid 2px;
+}
+
+.home-nav-logo {
+  width: 92px;
+  height: 42px;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-top: 20px;
+  font-family: "Gill Sans";
+  font: white;
+}
+
+.links {
+  width: 542px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+  font-size: 15px;
+  font-family: "Gill Sans";
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  margin: auto;
+}
+
+.nav-divider {
+  height: 22px;
+  margin-top: 11px;
+  width: 1px;
+  background: #ee4367;
+}
+
+/* home page - second section */
+.home-section2 {
+  width: 1280px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.section2-quote {
+  color: #ffd140;
+  font-family: GillSans.ttc;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: lighter;
+  padding-top: 77px;
+  padding-left: 320px;
+}
+
+.section2-name {
+  color: #ee4367;
+  font: Serif;
+  font-size: 15px;
+  font-weight: lighter;
+  padding-top: 20px;
+  padding-left: 320px;
+}
+
+.section2-title {
+  color: #a8a8a8;
+  font-family: Serif;
+  font-size: 10px;
+  font-weight: lighter;
+  padding-left: 320px;
+}
+
+/* home page - third section */
+.home-section3 {
+  width: 1280px;
+  height: 320px;
+  background-color: #540d6e;
+  margin: 0 auto;
+}
+
+.section3-upcoming {
+  color: white;
+  font-size: 25px;
+  font-weight: lighter;
+  font-family: GillSans.ttc;
+  letter-spacing: 2px;
+  padding-top: 50px;
+  padding-left: 40px;
+  /* border-bottom: white 2px solid; */
+}
+
+.section3-border {
+  width: 392px;
+  border-bottom: white 2px solid;
+  margin-left: 40px;
+}
+
+/* home page - third section dates */
+.section3-date-section {
+  width: 1198px;
+  height: 124px;
+  margin-top: 35px;
+  margin-left: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section3-month {
+  width: 230px;
+  height: 124px;
+}
+
+.date-box {
+  background-color: #ee4367;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-content: center;
+  float: left;
+}
+
+.day {
+  color: white;
+  font-size: 22px;
+  font-style: bold;
+  font-family: GillSans.ttc;
+  margin-left: 17px;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.month {
+  color: white;
+  margin-bottom: 9px;
+  font-size: 12px;
+  font-family: GillSans.ttc;
+  font-style: lighter;
+  display: flex;
+}
+
+.date-title {
+  color: white;
+  font-size: 15px;
+  font-family: GillSans.ttc;
+  font-style: lighter;
+  width: 160px;
+  float: right;
+  padding-left: 16px;
+}
+
+.date-description {
+  color: #ee4367;
+  font-size: 13px;
+  font-weight: lighter;
+  font-family: GillSans.ttx;
+  float: right;
+  width: 160px;
+  padding-left: 16px;
+}
+
+/* home page - footer */
+.home-footer {
+  width: 1280px;
+  height: 455px;
+  background-color: #ee4367;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.nav-logo-footer {
+  width: 92px;
+  height: 42px;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-top: 20px;
+  font-family: "Gill Sans";
+  font: white;
+  margin-left: 594px;
+}
+
+.home-footer-address {
+  color: white;
+  font-size: 16px;
+  font-weight: lighter;
+  margin-top: 46px;
+  margin-left: 518px;
+  font-family: GillsSans.ttc;
+}
+
+.home-footer-number {
+  color: white;
+  font-size: 16px;
+  font-weight: lighter;
+  margin-top: 5px;
+  margin-left: 590px;
+  font-family: GillSans.ttc;
+}
+
+.home-footer-email {
+  color: white;
+  font-size: 16px;
+  font-weight: lighter;
+  margin-top: 5px;
+  margin-left: 581px;
+  font-family: GillSans.ttc;
+}
+
+.newsletter {
+  width: 529px;
+  height: 60px;
+  background-color: #f56b88;
+  margin-top: 46px;
+  margin-left: 292px;
+}
+
+.email {
+  color: white;
+  opacity: 50%;
+  padding-top: 21px;
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: lighter;
+  font-family: GillSans.ttc;
+}
+
+.subscribe {
+  background-color: white;
+  width: 167px;
+  height: 60px;
+  margin-left: 821px;
+  display: flex;
+  align-items: center;
+  margin-top: -60px;
+}
+
+.subscribe-text {
+  color: #ee4367;
+  letter-spacing: 1px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 16px;
+  font-style: lighter;
+  font-family: GillSans.ttc;
+}
+
+.footer-copyright {
+  color: white;
+  margin-top: 47px;
+  margin-left: 536px;
+  opacity: 50%;
+  font-size: 12px;
+  font-weight: lighter;
+  font-family: GillSans.ttc;
+}
+
+/* footer logos */
+.facebook-logo {
+  width: 31px;
+  height: 31px;
+  margin-top: 30px;
+  margin-left: 571px;
+}
+
+.instagram-logo {
+  width: 31px;
+  height: 31px;
+  margin-top: 30px;
+  margin-left: 31px;
+}
+
+.twitter-logo {
+  width: 31px;
+  height: 31px;
+  margin-top: 30px;
+  margin-left: 31px;
+}
+
+/* about page - first section */
+.about-section1 {
+  width: 1280px;
+  height: 800px;
+  margin: 0 auto;
+}
+
+.about-links {
+  width: 542px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+  font-size: 15px;
+  font-family: "Gill Sans";
+}
+
+.about-links a {
+  text-decoration: none;
+  color: black;
+  margin: auto;
+}
+
+.about-nav {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: black solid 2px;
+}
+
+.about-nav-logo {
+  width: 92px;
+  height: 42px;
+  color: black;
+  border-style: solid;
+  border-width: 2px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-top: 20px;
+  font-family: "Gill Sans";
+  font: black;
+}
+
+.about-header-photo {
+  width: 980px;
+  height: 379px;
+  margin-left: 151px;
+  margin-top: 86px;
+  background-image: url(../images/Group\ 11.png);
+}
+
+.about-history-header {
+  font-size: 25px;
+  padding-top: 355px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  font-family: GillSans.ttc;
+}
+
+.about-bottom-border {
+  width: 229px;
+  margin-left: 151px;
+  margin-top: 11px;
+  border-bottom: black 2px solid;
+}
+
+.about-history-description {
+  font-size: 16px;
+  margin-top: 37px;
+  margin-left: 151px;
+  font-weight: lighter;
+  font-style: italic;
+  font-family: GillSans.ttc;
+}
+
+/* Gallery page - first section */
+.gallery-header {
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin-top: 66px;
+  margin-left: 150px;
+  font-weight: lighter;
+  font-family: GillSans.ttc;
+}
+
+.gallery-bottom-border {
+  width: 229px;
+  margin-left: 150px;
+  margin-top: 11px;
+  border-bottom: black 2px solid;
+}
+
+.gallery-first-row {
+  width: 1280px;
+  height: 217px;
+}
+
+.gallery-yellow {
+  width: 489px;
+  height: 187px;
+  margin-top: 30px;
+  margin-left: 150px;
+}
+
+.gallery-pink {
+  width: 187px;
+  height: 187px;
+  margin-left: 20px;
+}
+
+.gallery-green {
+  width: 258px;
+  height: 187px;
+  margin-left: 20px;
+}
+
+.gallery-second-row {
+  width: 1280px;
+  height: 386px;
+  margin-top: 20px;
+}
+
+.gallery-purple {
+  width: 603px;
+  height: 306px;
+  margin-left: 150px;
+}
+
+.gallery-teal {
+  width: 355px;
+  height: 306px;
+  margin-left: 20px;
+}
+
+/* Gallery #1 Page - first section */
+.gallery1-photo {
+  background-image: url(../images/Group\ 24.png);
+  width: 981px;
+  height: 401px;
+  margin-top: 51px;
+  margin-left: 150px;
+}
+
+.gallery-number {
+  padding-top: 130px;
+  font-size: 300px;
+  color: #ffd140;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1);
+  font-family: GillSans.ttc;
+}
+
+.name {
+  font-size: 140px;
+}
+
+.gallery1-description {
+  width: 1280px;
+  height: 236px;
+  display: flex;
+}
+
+.gallery1-paragraph1 {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  margin-top: 51px;
+  margin-left: 150px;
+  font-family: GillSans.ttc;
+}
+
+.gallery1-paragraph2 {
+  margin-top: 51px;
+  margin-left: 40px;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-family: GillSans.ttc;
+}
+
+/* Gallery #2 Page - first section */
+.gallery2-photo {
+  background-image: url(../images/Group\ 29.png);
+  background-repeat: no-repeat;
+  margin-top: 51px;
+  margin-left: 150px;
+}
+
+.gallery2-number {
+  padding-top: 130px;
+  font-size: 300px;
+  color: #ee4367;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1);
+  font-family: GillSans.ttc;
+}
+
+.name2 {
+  font-size: 140px;
+}
+
+/* Gallery #3 - first section */
+.gallery3-photo {
+  background-image: url(../images/Group\ 30.png);
+  background-repeat: no-repeat;
+  margin-top: 51px;
+  margin-left: 150px;
+}
+
+.gallery3-number {
+  padding-top: 130px;
+  font-size: 300px;
+  color: #08ad69;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1);
+  font-family: GillSans.ttc;
+}
+
+.name3 {
+  font-size: 140px;
+}
+
+.gallery3-paragraph1 {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  margin-left: 150px;
+  font-family: GillSans.ttc;
+}
+
+.gallery3-paragraph2 {
+  margin-left: 40px;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-family: GillSans.ttc;
+}
+
+/* Gallery #4 Page - First Section */
+.gallery4-photo {
+  background-image: url(../images/Group\ 31.png);
+  background-repeat: no-repeat;
+  margin-top: 51px;
+  margin-left: 150px;
+}
+
+.gallery4-number {
+  padding-top: 130px;
+  font-size: 300px;
+  color: #540d6e;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1);
+  font-family: GillSans.ttc;
+}
+
+.name4 {
+  font-size: 115px;
+}
+
+.gallery4-paragraph1 {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  margin-left: 150px;
+  font-family: GillSans.ttc;
+}
+
+.gallery4-paragraph2 {
+  margin-left: 40px;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-family: GillSans.ttc;
+}
+
+/* Gallery #5 Page - First Section */
+.gallery5-photo {
+  background-image: url(../images/Group\ 32.png);
+  background-repeat: no-repeat;
+  margin-top: 51px;
+  margin-left: 150px;
+}
+
+.gallery5-number {
+  padding-top: 130px;
+  font-size: 300px;
+  color: #3bceab;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1);
+  font-family: GillSans.ttc;
+}
+
+.name5 {
+  font-size: 115px;
+}
+
+.gallery5-paragraph1 {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  margin-left: 150px;
+  font-family: GillSans.ttc;
+}
+
+.gallery5-paragraph2 {
+  margin-left: 40px;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-family: GillSans.ttc;
+}
+
+/* Blog Page - first section */
+.blog-header {
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin-top: 72px;
+  margin-left: 150px;
+  font-weight: lighter;
+  font-family: GillSans.ttc;
+}
+
+.blog-post {
+  margin-right: 50px;
+}
+
+.blog-row {
+  width: 1280px;
+  height: auto;
+  padding-left: 150px;
+  display: flex;
+  justify-content: flex-start;
+}
+.date-box-blog {
+  background-color: #ee4367;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-content: center;
+  float: left;
+  margin-top: 31px;
+}
+
+.month-blog {
+  position: absolute;
+  padding-top: 38px;
+  padding-left: 17px;
+  color: white;
+  font-size: 12px;
+  font-family: GillSans.ttc;
+  font-style: lighter;
+  display: flex;
+}
+
+.blog-post-photo {
+  margin-top: 31px;
+  margin-left: 20px;
+}
+
+.blog-title {
+  margin-left: 80px;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: lighter;
+  font-family: GillSans.ttc;
+}
+
+.blog-description {
+  color: #ee4367;
+  margin-left: 80px;
+  font-size: 13px;
+  font-weight: lighter;
+  font-family: GillSans.ttc;
+}
+
+.blog-section {
+  width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 86px;
+}
+
+/* Blog #1 Page - first section */
+.blog-post2 {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.blog-photo {
+  background-image: url(../images/blog2.png);
+  width: 981px;
+  height: 300px;
+  margin-left: 150px;
+  margin-top: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-box {
+  width: 155px;
+  height: 155px;
+  background-color: #ee4367;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.blog-day {
+  width: 100%;
+  height: 0px;
+  text-align: center;
+  font-size: 55px;
+  color: white;
+  font-style: bold;
+  font-family: GillSans.ttc;
+}
+
+.blog-month {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  font-size: 31px;
+}
+
+.blog-header1 {
+  margin-top: 61px;
+  margin-left: 150px;
+  color: #ee4367;
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: GillSans.ttc;
+}
+
+.blog-description1 {
+  margin-left: 150px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  font-family: GillSans.ttc;
+}
+
+.blog-part2 {
+  margin-left: 150px;
+  margin-top: 33px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  font-family: GillSans.ttc;
+}
+
+.blog-part2-2 {
+  margin-left: 150px;
+  margin-bottom: 151px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  font-family: GillSans.ttc;
+}
+
+/* Contact page */
+.contact-header {
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin-top: 72px;
+  margin-left: 150px;
+  font-weight: lighter;
+  font-family: GillSans.ttc;
+}
+
+.contact-section {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.name-box {
+  width: 529px;
+  height: 60px;
+  background-color: #f5f5f5;
+  margin-left: 150px;
+  margin-top: 66px;
+}
+
+.contact-desc {
+  padding-top: 20px;
+  padding-left: 21px;
+  opacity: 50%;
+  font-size: 16px;
+  font-weight: lighter;
+  font-family: GillSans.ttc;
+}
+
+.name-box2 {
+  width: 529px;
+  height: 60px;
+  background-color: #f5f5f5;
+  margin-left: 150px;
+  margin-top: 21px;
+}
+
+.name-box3 {
+  width: 529px;
+  height: 199px;
+  background-color: #f5f5f5;
+  margin-left: 150px;
+  margin-top: 21px;
+}
+
+.send-message-button {
+  width: 167px;
+  height: 60px;
+  background-color: #ee4367;
+  margin-left: 150px;
+  margin-top: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  margin-bottom: 109px;
+}
+
+.message-button-text {
+  padding-top: 15px;
+  color: white;
+  font-size: 16px;
+  font-weight: lighter;
+  font-family: GillSans.ttc;
+}
+
+.contact-map {
+  float: right;
+  margin-top: -635px;
+  margin-right: 150px;
+}
